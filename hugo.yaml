@@ -1,67 +1,13 @@
 baseURL: "https://www.clingstone.com.au/"
 languageCode: "en-us"
 title: "Clingstone"
-theme: "hugo-fresh"
+theme: "ananke"
 
 params:
-  navbarlogo:
-    image: "img/logos/your-logo.png"
-    link: "/"
-  font:
-    name: "Inter"
-    sizes: [400, 600]
-
-  hero:
-    title: "Cybersecurity, AI & Cloud — done right."
-    subtitle: "Clingstone helps businesses secure, modernize, and scale with consumer technology—safely."
-    buttontext: "Contact us"
-    buttonlink: "mailto:info@clingstone.com.au"
-    image: "img/illustrations/hero.svg"
-
-  section1:
-    - title: "Cybersecurity"
-      content: "Risk assessments, controls, incident readiness, and security operations tailored to your business."
-      image: "img/illustrations/shield.svg"
-    - title: "AI Enablement"
-      content: "Identify high-impact use cases and implement responsible AI—automation, copilots, and data pipelines."
-      image: "img/illustrations/ai.svg"
-    - title: "Cloud Transformation"
-      content: "Strategy, migration, and cost governance across AWS, Azure, and Google Cloud."
-      image: "img/illustrations/cloud.svg"
-
-  features:
-    - title: "Advisory & Roadmaps"
-      text: "From current-state assessments to pragmatic 90-day plans aligned to business outcomes."
-    - title: "Implementation"
-      text: "Hands-on delivery for security hardening, AI pilots, and cloud landing zones."
-    - title: "Enablement"
-      text: "Upskill your teams with playbooks, workshops, and lightweight governance."
-
-  cta:
-    title: "Let’s talk"
-    subtitle: "Tell us your goals; we’ll map a secure path to value in weeks, not months."
-    buttontext: "Email us"
-    buttonlink: "mailto:info@clingstone.com.au"
-
-  footer:
-    logo: "img/logos/your-logo.png"
-    bulmalogo: false
-    socialmedia:
-      - link: "mailto:info@clingstone.com.au"
-        icon: "envelope"
-    quicklinks:
-      column1:
-        title: "Company"
-        links:
-          - text: "About"
-            link: "/about"
-          - text: "Services"
-            link: "/services"
-      column2:
-        title: "Legal"
-        links:
-          - text: "Privacy"
-            link: "/privacy"
+  description: "Cybersecurity, AI & Cloud consulting for Australian businesses."
+  text_color: ""
+  author: "Clingstone"
+  favicon: "favicon.png"
 
 menu:
   main:
