@@ -1,3 +1,6 @@
 [build]
   command = "hugo --logLevel info"
   publish = "public"
+
+[build.environment]
+  HUGO_VERSION = "0.126.1"
