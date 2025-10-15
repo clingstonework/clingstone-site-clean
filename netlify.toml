@@ -3,4 +3,7 @@
   publish = "public"
 
 [build.environment]
-  HUGO_VERSION = "0.126.1"
+  # Use a recent version that satisfies the theme's minimum (>= 0.128)
+  HUGO_VERSION = "0.129.0"
+  # Force the extended binary (enables SCSS/Sass pipeline)
+  HUGO_EXTENDED = "true"
